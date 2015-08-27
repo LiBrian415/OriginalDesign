@@ -1,7 +1,6 @@
 void setup()
 {
 size(400,400);
-int x = 10;
 }
 void draw()
 {
@@ -9,7 +8,6 @@ background(0,0,0);
 barc();
 center();
 farc();
-rand();
 }
 
 void center()
@@ -44,8 +42,4 @@ rotate(PI/4);
 arc(280,00,175,75,PI,PI+PI);
 rotate(TWO_PI/4);
 arc(0,-280,175,75,0,PI);
-}
-
-void rand(){
-rect(0,350,10,10);
 }

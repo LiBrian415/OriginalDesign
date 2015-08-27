@@ -17,7 +17,6 @@ public class OriginalDesign extends PApplet {
 public void setup()
 {
 size(400,400);
-int x = 10;
 }
 public void draw()
 {
@@ -25,7 +24,6 @@ background(0,0,0);
 barc();
 center();
 farc();
-rand();
 }
 
 public void center()
@@ -60,10 +58,6 @@ rotate(PI/4);
 arc(280,00,175,75,PI,PI+PI);
 rotate(TWO_PI/4);
 arc(0,-280,175,75,0,PI);
-}
-
-public void rand(){
-rect(0,350,10,10);
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "OriginalDesign" };
